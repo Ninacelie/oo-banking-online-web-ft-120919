@@ -27,7 +27,7 @@ end
 
   def close_account
     when @account < 0 && @status == "closed"
-      true 
+      true
     else
       false
     end 
