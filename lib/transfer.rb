@@ -24,7 +24,7 @@ class Transfer
          @receiver.balance += @amount
          @status = "complete"
       elsif
-         !@sender.valid == true 
+         !@sender.valid == true
          @status = "rejected"
          return "Trans."
     end
