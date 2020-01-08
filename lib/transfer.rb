@@ -25,7 +25,7 @@ class Transfer
     elsif @status == "pending"
     end
   end
-end 
+
 
 
 
