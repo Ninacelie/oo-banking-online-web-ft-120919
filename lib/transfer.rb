@@ -24,8 +24,7 @@ class Transfer
          @receiver.balance += @amount
          @status = "complete"
       elsif
-         !@sender.valid? && @status == "rejected"
-         return "Den"
+        @status = "rejected"
     end
   end
 
