@@ -26,11 +26,11 @@ class BankAccount
 end
 
   def close_account
-    if @balance < 0 && @status == "closed"
-      true
+    when @account < 0 && @status == "closed"
+      true 
     else
-     false
-   end 
+      false
+    end 
   end
 
 end
