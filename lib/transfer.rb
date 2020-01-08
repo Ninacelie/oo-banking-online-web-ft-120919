@@ -24,7 +24,7 @@ class Transfer
       @status = "Transaction rejected. Please check your account balance."
     elsif @status == "pending"
     end
-  end 
+  end
 end 
 
 
