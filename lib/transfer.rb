@@ -24,7 +24,7 @@ class Transfer
         return "Transaction rejected. Please check your account balance."
       elsif @status == "complete"
         puts "Transaction was already executed."
-      else 
+      else
         @sender.deposit
     end
   end
